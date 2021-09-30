@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Triangles</title>
+</head>
+<body>
+    <div class="navbar">
+     
+            <a class=" link-active" href="/">Quiz </a>
+            <a  href="/istria.html">Is traingle?</a>
+            <a  href="/hypotenuse.html">Hypotenuse</a>
+            <a  href="/area.html">Area of Triangle</a>
+    </div>
+
+    <div id="formquiz">
+        <h1>Quiz on traingles</h1>
+        <h3>One mark for every correct answer</h3>
+        <form id="quiz-form">
+            <div>
+            <p>How many elements are there in a triangle?</p>
+            <input type="radio"  name="q1" value="3">
+            <label >3</label><br>
+            <input type="radio"  name="q1" value="4">
+            <label >4</label><br>
+            <input type="radio"  name="q1" value="6">
+            <label >6</label>
+            </div>
+           
+            <div>
+            <p>How many vertices does a triangle have?</p>
+            <input type="radio"  name="q2" value="1">
+            <label >1</label><br>
+            <input type="radio"  name="q2" value="2">
+            <label >2</label><br>  
+            <input type="radio"  name="q2" value="3">
+            <label >3</label><br><br>
+            
+            </div>
+            <div>
+                <p>How many sides are there in a triangle?</p>
+                <input type="radio"  name="q3" value="2">
+                <label >2</label><br>
+                <input type="radio"  name="q3" value="3">
+                <label >3</label><br>  
+                <input type="radio" name="q3" value="4">
+                <label >4</label><br><br>
+                
+                </div>
+            <div>
+                    <p>How many vertices does a triangle have?</p>
+                    <input type="radio" name="q4" value="4">
+                    <label >4</label><br>
+                    <input type="radio"  name="q4" value="5">
+                    <label >5</label><br>  
+                    <input type="radio"  name="q4" value="3">
+                    <label >3</label><br><br>
+                    
+            </div>
+            <div>
+                        <p>If two sides of a triangle are not equal, the triangle is called</p>
+                        <input type="radio"  name="q5" value="scalene">
+                        <label >scalene</label><br>
+                        <input type="radio"  name="q5" value="isosceles">
+                        <label >isosceles</label><br>  
+                        <input type="radio"  name="q5" value="equilateral">
+                        <label >equilateral</label><br><br>
+                        
+             </div>
+        </form>
+        <button  id="submit-answers">Submit Answers</button> 
+        <h2 id="output"></h2>
+    </div>
+
+    <script src="cal-quiz.js"></script>
+</body>
+</html>
