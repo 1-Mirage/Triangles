@@ -14,7 +14,7 @@ function calcarea(e)
   const firstvalue = Number(first.value);
   const secondvalue = Number(second.value);
   const thirdvalue = Number(third.value);
-  if(firstvalue<0||secondvalue<0||thirdvalue<0)
+  if(firstvalue<=0||secondvalue<=0||thirdvalue<=0)
   {
     reloadpage();
     alert("Enter positive value");
